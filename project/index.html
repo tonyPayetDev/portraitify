@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avis Clients Ozeroz Rose Video Box</title>
+    <style>
+        :root {
+            --primary-color: #ff4d4d;
+            --background-color: #f8f9fa;
+            --card-background: #ffffff;
+            --text-color: #333333;
+            --secondary-text: #666666;
+            --shadow: rgba(0, 0, 0, 0.1);
+            --verified-badge-color: #4CAF50;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--background-color);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: var(--text-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: var(--secondary-text);
+            font-size: 1.1em;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            padding: 24px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .review-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            width: 100%;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .review-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px var(--shadow);
+        }
+
+        .review-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .review-card img:hover {
+            transform: scale(1.02);
+        }
+
+        .review-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .rating {
+            color: var(--primary-color);
+            font-size: 1.2em;
+            z-index: 1;
+        }
+
+        .verified-badge {
+            display: flex;
+            align-items: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .check-icon {
+            color: #2ecc71;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-right: 4px;
+        }
+
+        .text {
+            color: var(--text-color);
+            line-height: 1.6;
+            font-size: 0.95em;
+            margin: 12px 0;
+            flex-grow: 1;
+        }
+
+        .date {
+            color: var(--secondary-text);
+            font-size: 0.85em;
+            margin-top: 15px;
+            text-align: right;
+            font-style: italic;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 1024px) {
+            .gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+                padding: 16px;
+            }
+
+            .review-card img {
+                height: 250px;
+            }
+
+            .rating {
+                position: absolute;
+                top: 24px;
+                right: 24px;
+                background: rgba(255, 255, 255, 0.9);
+                padding: 4px 8px;
+                border-radius: 4px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .gallery {
+                padding: 12px;
+            }
+
+            .review-card {
+                padding: 12px;
+            }
+
+            .review-card img {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="gallery">
+        <div class="review-card">
+            <img src="https://cdn.shopify.com/s/files/1/0811/6283/0168/files/59224081633712408163371.jpg?v=1734249634" alt="Avis Ozeroz Rose Video Box" loading="lazy">
+            <div class="review-header">
+                <div class="rating">❤️❤️❤️❤️❤️</div>
+                <div class="verified-badge">
+                    <span class="check-icon">✓</span>
+                    <span>Achat Vérifié</span>
+                </div>
+            </div>
+            <div class="text">J'ai acheté la Ozeroz Rose Video Box en juin. À leur arrivée, la qualité était incroyable ! La fonction vidéo personnelle ajoute une touche unique et sincère.</div>
+            <div class="date">16 juin 2023</div>
+        </div>
+
+        <div class="review-card">
+            <img src="https://cdn.shopify.com/s/files/1/0811/6283/0168/files/43669971633716997163371.jpg?v=1734249633" alt="Avis Ozeroz Rose Video Box" loading="lazy">
+            <div class="review-header">
+                <div class="rating">❤️❤️❤️❤️</div>
+                <div class="verified-badge">
+                    <span class="check-icon">✓</span>
+                    <span>Achat Vérifié</span>
+                </div>
+            </div>
+            <div class="text">Je les ai adorées, la couleur était superbe. La qualité était au rendez-vous !</div>
+            <div class="date">8 mai 2024</div>
+        </div>
+
+        <div class="review-card">
+            <img src="https://cdn.shopify.com/s/files/1/0811/6283/0168/files/00671071992717107199271_1.jpg?v=1734249630" alt="Avis Ozeroz Rose Video Box" loading="lazy">
+            <div class="review-header">
+                <div class="rating">❤️❤️❤️❤️❤️</div>
+                <div class="verified-badge">
+                    <span class="check-icon">✓</span>
+                    <span>Achat Vérifié</span>
+                </div>
+            </div>
+            <div class="text">L'acheter comme cadeau est un choix intelligent. C'est unique et impressionnera certainement la personne qui le reçoit.</div>
+            <div class="date">19 mars 2024</div>
+        </div>
+
+        <div class="review-card">
+            <img src="https://cdn.shopify.com/s/files/1/0811/6283/0168/files/04815043792711504379271_1.jpg?v=1734249629" alt="Avis Ozeroz Rose Video Box" loading="lazy">
+            <div class="review-header">
+                <div class="rating">❤️❤️❤️❤️❤️</div>
+                <div class="verified-badge">
+                    <span class="check-icon">✓</span>
+                    <span>Achat Vérifié</span>
+                </div>
+            </div>
+            <div class="text">Ma mère est décédée en 2010 et je pense à elle. J'ai acheté ces roses pour les mettre à côté de ses photos. Elles sont magnifiques et le conteneur noir s'accorde parfaitement avec ma table d'appoint. J'ai gardé la carte pour la décoration.</div>
+            <div class="date">8 mars 2024</div>
+        </div>
+
+        <div class="review-card">
+            <img src="https://cdn.shopify.com/s/files/1/0811/6283/0168/files/67447781992714778199271.jpg?v=1734249630" alt="Avis Ozeroz Rose Video Box" loading="lazy">
+            <div class="review-header">
+                <div class="rating">❤️❤️❤️❤️❤️</div>
+                <div class="verified-badge">
+                    <span class="check-icon">✓</span>
+                    <span>Achat Vérifié</span>
+                </div>
+            </div>
+            <div class="text">Livraison dans les délais et en parfait état. Vraiment impressionnée !</div>
+            <div class="date">19 octobre 2023</div>
+        </div>
+
+        <div class="review-card">
+            <img src="https://cdn.shopify.com/s/files/1/0811/6283/0168/files/84529381992712938199271.jpg?v=1734249629" alt="Avis Ozeroz Rose Video Box" loading="lazy">
+            <div class="review-header">
+                <div class="rating">❤️❤️❤️❤️❤️</div>
+                <div class="verified-badge">
+                    <span class="check-icon">✓</span>
+                    <span>Achat Vérifié</span>
+                </div>
+            </div>
+            <div class="text">J'ai acheté la Ozeroz Rose Video Box pour ma fiancée et je suis ravi de tout ! Les roses sont magnifiques et le message vidéo ajoute une touche personnelle. C'était le cadeau parfait pour exprimer mon amour. Je le recommande à tous ceux qui veulent impressionner leurs proches !</div>
+            <div class="date">1 mars 2024</div>
+        </div>
+
+        <div class="review-card">
+            <img src="https://cdn.shopify.com/s/files/1/0811/6283/0168/files/67447781992714778199271_1.jpg?v=1734249629" alt="Avis Ozeroz Rose Video Box" loading="lazy">
+            <div class="review-header">
+                <div class="rating">❤️❤️❤️❤️❤️</div>
+                <div class="verified-badge">
+                    <span class="check-icon">✓</span>
+                    <span>Achat Vérifié</span>
+                </div>
+            </div>
+            <div class="text">Les roses sont magnifiques et la boîte vidéo est parfaite ! Les roses durent plus longtemps qu'un bouquet classique, ce qui en fait un cadeau encore plus attentionné. La présentation est superbe et le message personnalisé crée une impression durable. Je recommande vivement !</div>
+            <div class="date">4 mars 2024</div>
+        </div>
+
+        <div class="review-card">
+            <img src="https://cdn.shopify.com/s/files/1/0811/6283/0168/files/04815043792711504379271_1.jpg?v=1734249629" alt="Avis Ozeroz Rose Video Box" loading="lazy">
+            <div class="review-header">
+                <div class="rating">❤️❤️❤️❤️❤️</div>
+                <div class="verified-badge">
+                    <span class="check-icon">✓</span>
+                    <span>Achat Vérifié</span>
+                </div>
+            </div>
+            <div class="text">Excellent produit. La boîte vidéo est superbe et les roses sont magnifiques. C'était le cadeau ultime, parfait pour exprimer un moment spécial.</div>
+            <div class="date">4 décembre 2023</div>
+        </div>
+    </div>
+</body>
+</html>

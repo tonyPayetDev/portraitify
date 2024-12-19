@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #ff4d4d;
+    --background-color: #f8f9fa;
+    --card-background: #ffffff;
+    --text-color: #333333;
+    --secondary-text: #666666;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --verified-badge-color: #4CAF50;
+}
